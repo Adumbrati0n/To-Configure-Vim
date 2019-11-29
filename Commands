@@ -1,0 +1,58 @@
+colon mode:
+
+:w   writes the file
+:q   quits vim
+
+normal mode:
+
+i INSERT
+a APPEND
+o OPEN (a new line)
+I INSERT at the beginning of the line
+A APPEND to the end of the current line
+O OPEN a new line before the current line
+. repeat the previous action
+
+J JOIN two lines
+
+*** Press the ESC key to return to normal mode!!!
+
+MOTIONS
+
+hjkl (left, down up right)
+w (move forward 1 word)
+b (move back one word)
+e (move to the end of the word)
+G (Go to the end of the file)
+NG (Go to line N)
+$ (Go to the end of the line)
+| (Go to the beginning of the line)
+/word (move the cursor to the next occurence of "word")
+
+DELETE
+
+dd (delete current line)
+dw (delete word)
+d<motion> (delete text covered by the motion)
+d/cat (delete everything up to the next "cat")
+3dw (delete 3 words)
+x (delete current selection)
+
+YANK
+
+yy (yank the current line)
+yw (yank the current word)
+y
+
+PUT (paste)
+
+p
+3p (paste 3 times)
+
+(Prefix a command with a number to execute it that many times)
+
+SELECTION
+
+v    (select)
+V    (line select)
+<ctrl>v  (block select)

@@ -1,0 +1,15 @@
+$ vim ~/.vimrc
+-- put this inside it... ---
+set number
+set autoindent
+set smartindent
+set tabstop=2
+set shiftwidth=2
+set backspace=2
+set mouse=a
+set t_Co=256
+set t_ut=
+colo darkblue OR colo elflord do :colorscheme to see on vim
+
+
+:vs or :vsq- 2 screens
